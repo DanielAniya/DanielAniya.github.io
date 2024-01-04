@@ -1,9 +1,11 @@
 .meuNome {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 }
 
 body {
   background-color: sandybrown;
+  padding: 3%;
 }
 
 .descricao {
@@ -11,6 +13,9 @@ body {
   line-height: 60px;
   text-decoration: underline;
   font-size: 2em;
+  position: absolute;
+  top: 18%;
+  left: 25%
 }
 
 .javascript {
@@ -31,4 +36,24 @@ body {
 
 .metoAgil {
   font-size: 12px;
+}
+
+div {
+  border: 2px solid green;  
+}
+
+#foto {
+  float: left;
+  height: 280px;
+  padding: 10px;
+  background-color: blue;
+}
+
+.image-container {
+  height: 300px;
+  position: relative;
+}
+
+ul li:nth-child(odd) {
+  background-color: gray;
 }
